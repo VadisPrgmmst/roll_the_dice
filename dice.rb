@@ -8,12 +8,12 @@ def show_rolling_die
 end
 
 
-puts 'Сколько раз бросать кость'
+puts 'Сколько раз бросать кость?'
 number = STDIN.gets.chomp.to_i
 
 sum = 0
 number.times do
-  puts 'Kость вращается!'
+  puts 'Kость вращается...'
   show_rolling_die
   time_value = nil
   puts "\nВыпало #{time_value = rand(6) + 1}"
